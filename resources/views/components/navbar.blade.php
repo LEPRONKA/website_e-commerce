@@ -11,7 +11,7 @@
             <div class="hidden md:flex space-x-8">
                 <a href="/dashboard" class="text-brand-primary font-medium border-b-2 border-brand-primary pb-1 transition">Dashboard</a>
                 <a href="#" class="text-gray-600 hover:text-brand-primary font-medium transition">Shop</a>
-                <a href="#" class="text-gray-600 hover:text-brand-primary font-medium transition">Categories</a>
+                <a href="/categories" class="text-gray-600 hover:text-brand-primary font-medium transition">Categories</a>
             </div>
 
             <!-- Kanan: Icons, Profile, atau Login -->

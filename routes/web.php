@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth; // <-- agar baris 22 tidak error
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\CategoriesController;
+
 
 // Route untuk menampilkan halaman utama
 Route::get('/', function () { 
@@ -46,3 +48,5 @@ Route::get('/produk/{id}', [DashboardController::class, 'show'])->middleware(['a
 
 // Route untuk Logout (Hanya bisa diakses oleh user yang sudah login)
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout')->middleware('auth');
+
+Route::get('/categories', [CategoriesController::class, 'index'])->middleware(['auth']);

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Kustomisasi warna tema e-commerce Golfa */
+@theme {
+    --color-brand-primary: #1e3a8a; /* Biru tua yang profesional */
+    --color-brand-secondary: #facc15; /* Kuning aksen */
+    --color-brand-dark: #0f172a;
+    --color-brand-light: #f8fafc;
+}
